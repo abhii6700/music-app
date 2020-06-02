@@ -27,7 +27,7 @@ header h1 {
 }
 
 .pads > div {
-  height: 100px;
+  height: 150px;
   width: 100px;
   flex: 1;
   flex-wrap: wrap;
