@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montesserat", sans-serif;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+}
+
+.pads {
+  width: 100%;
+  display: flex;
+}
+
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.pad1 {
+  background: #2ecc71;
+}
+
+.pad2 {
+  background: #3498db;
+}
+
+.pad3 {
+  background: #9b59b6;
+}
+
+.pad4 {
+  background: #f1c40f;
+}
+
+.pad5 {
+  background: #e67e22;
+}
+
+.pad6 {
+  background: #95a5a6;
+}
+
+.pad7 {
+  background: #e74c3c;
+}
+
+.pad8 {
+  background: #3c40c6;
+}
+
+.pad9 {
+  background: #485460;
+}
+
+.pad10 {
+  background: #ef5777;
+}
+
+.visual > div {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 0%;
+  align-items: center;
+  z-index: -1;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    /* left: 20%; */
+  }
+  50% {
+    bottom: 50%;
+    /* left: 50%; */
+  }
+  100% {
+    bottom: 0%;
+    /* left: 80%; */
+  }
+}
